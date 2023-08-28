@@ -1,0 +1,220 @@
+
+.admin-main{
+    width: 100%;
+    display: flex;
+    max-height: 100%;
+}
+.sideNavbar{
+    width: 20%;
+}
+.sideNavbar>img{
+    width: 100%;
+    height: 1200px;
+    left: 0;
+}
+.content-box{
+    width: 80%;
+}
+.subject-title{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.subject-btn{
+padding: 10px;
+width: 150px;
+border-radius: 20px;
+background-color: white;
+border: 1px solid #C0C0C0;
+}
+.subject-btn:hover{
+    cursor: pointer;
+    background-color: #4F78FE;
+    color: white;
+}
+.day-box{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    border: 1px solid #4F78FE;
+    max-height: 100px;
+    min-height: 40px;
+    margin-top: 25px;
+    border-radius: 20px;
+    justify-content: space-between;
+    align-items: center;
+      
+     padding-right: 20px;
+}
+.day-increase{
+    height: 80%;
+     border: none;
+     color: #4F78FE;
+     background-color: transparent;
+     margin-left: 50px;
+     font-size: large;
+     font-weight: bold;
+     
+}
+.day-btn{
+    background-color: white;
+    border: none;
+    width: 50px;
+    border-radius: 20px;
+    height: 40px;
+}
+.day-btn.selected {
+    background-color: #4F78FE;  
+    color: white; 
+  }
+  .description-box{
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+    border: 2px solid lightgray;
+    min-height: 400px;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .add-title{
+    border: none;
+    border-bottom: 2px solid #C0C0C0;
+    width: 100%;
+    color: lightgray;
+    font-weight: bold;
+  }
+  .description-box>textarea{
+    border: 2px solid lightgray;
+    border-radius: 20px;
+    padding: 10px;
+  }
+  .component-box{
+    display: flex;
+    flex-direction: column;
+  }
+  .component-box-1{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    border: 2px solid lightgray;
+    max-height: 50px;
+    min-height: 20px;
+    margin-top: 25px;
+    border-radius: 30px;
+    justify-content: space-between;
+    align-items: center;
+     padding-right: 20px;
+     padding-left: 20px;
+  }
+  .component-box-1>button{
+    background-color: white;
+    border: none;
+    width: 50px;
+    border-radius: 20px;
+    height: 40px;
+    font-size: larger;
+    color:  #C5C5C5;
+  }
+  .component-box-1>p{
+    color:  #C5C5C5;
+    font-size: large;
+    font-weight: 600;
+  }
+  .learn-box{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  .learn-btn{
+   background-color: white;
+   border: 2px solid #C5C5C5;
+   width: 150px;
+   height: 50px;
+   padding: 10px;
+   border-radius: 25px;
+  }
+  .learn-btn.selected{
+    color:white;
+    background-color: #4F78FE;
+    border: none;
+  }
+  .learn-box>select{
+    color: #C5C5C5;
+  }
+
+  @media  screen and (max-width: 600px){
+
+    .sideNavbar{
+        width: 40%;
+    }
+    .content-box{
+        width: 60%;
+    }
+    .subject-title{
+        margin-top: 50px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: space-around;
+    }
+    .description-box{
+        width: 60%;
+        margin: auto;
+        margin-top: 50px;
+        border: 2px solid lightgray;
+        min-height: 600px;
+        padding: 20px;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+      }
+      .component-box-1{
+        display: flex;
+        width: 60%;
+        margin: auto;
+        border: 2px solid lightgray;
+        max-height: 50px;
+        min-height: 20px;
+        margin-top: 25px;
+        border-radius: 30px;
+        justify-content: space-between;
+        align-items: center;
+         padding-right: 20px;
+         padding-left: 20px;
+      }
+      .learn-box{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: space-around;
+        margin-top: 20px;
+      }
+      .learn-btn{
+       background-color: white;
+       border: 2px solid #C5C5C5;
+       width: 150px;
+       height: 50px;
+       padding: 10px;
+       border-radius: 25px;
+      }
+      .day-box{
+        width: 60%;
+        margin: auto;
+        display: flex;
+        border: 1px solid #4F78FE;
+        max-height: 100px;
+        min-height: 40px;
+        margin-top: 25px;
+        border-radius: 20px;
+        justify-content: space-between;
+        align-items: center;
+          
+         padding-right: 20px;
+    }
+  }
